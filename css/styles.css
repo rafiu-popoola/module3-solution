@@ -1,0 +1,160 @@
+/** NAVBAR **/
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar .container-fluid {
+	padding: 10px 10px 10px;
+	background-color: gray;
+	height: auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+} 
+
+.navbar-header {
+	padding-left: 20px;
+}
+
+.navbar .container-fluid {
+	padding-bottom: 0px;
+}
+
+.container-fluid .navbar-header .navbar-brand {
+	font-size: 2.5em;
+	font-weight: bold;
+	color: black;
+	padding-top: 15px;
+}
+
+.navbar-brand {
+	margin-bottom: 15px;
+	}
+
+.navbar-default .navbar-toggle {
+	border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 35px;
+    padding: 2.1px 2.5px 2.1px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, 
+.navbar-default .navbar-toggle:focus {
+	background-color: unset;
+}
+
+.navbar-toggle .glyphicon {
+	padding: 0px 4px 0px;
+	color: black;
+	font-size: 35px;
+	line-height: normal;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 7.5px;
+}
+
+a.glyphicon {
+	text-decoration: none;
+}
+
+.glyphicon:focus, .glyphicon:hover, .glyphicon:active {
+    background-color: gray;
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+#nav-list {
+	background-color: #505050;
+}
+
+#nav-list .nav-list-item {
+	font-size: 1.5em;
+	color: black;
+}
+
+hr {
+	margin: 0;
+	color: black;
+}
+ 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+    border-width: 2px;
+    margin-top: 0px;
+}
+
+#collapsable-nav a:hover, #collapsable-nav a:active, #collapsable-nav a:focus {
+	background-color: #303030;
+	border: 1px solid black;
+	color: lightgray;
+} 
+
+/** END NAVBAR **/
+
+
+
+/** MAIN CONTENT **/
+
+h1 {
+	font-weight: bold;
+	font-size: 32px;
+	color: black;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+#main-content.container {
+
+}
+
+#Chicken {
+	background-color: gray;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+#Chicken p {
+	padding: 0px 15px 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/** END MAIN CONTENT **/
+
+
+
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media (max-width: 767px) {
+	.container-fluid .navbar-header .navbar-brand {
+		/*margin-top: 6.5px;*/
+	}
+
+	.glyphicon-menu-hamburger {
+		margin-bottom: 4px;
+	}
+
+	#main-content {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+
+
